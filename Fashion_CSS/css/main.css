@@ -1,0 +1,115 @@
+body{
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background-image: url("../imagens/topo.jpg");
+    height: 37.25em;
+    background-size: cover;
+    background-attachment:scroll;
+    background-position: center left;
+
+}
+.top-header-div{
+    background-color: rgb(4, 19, 29);
+}
+.top-header img{
+    margin:1em 0 1em 12em;
+}
+.top-header-div nav{
+    float: right;
+    position: absolute;
+    left: 53em;
+    top:.6em;
+}
+.top-header-div ul{
+    list-style: none;
+}
+.top-header-div li{
+    display: inline-block;
+    margin-right: 1.8em;
+}
+.top-header-div a{
+    text-transform: uppercase;
+    font-size: 1em;
+    text-decoration: none;
+    color:rgb(39, 65, 82);
+}
+.top-header-div a:hover{
+    color: white;
+}
+.main-content-text{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.main-content-text h1{
+    font-size: 2.5em;
+}
+.main-content-text p{
+    color: rgb(78, 73, 73);
+}
+.main-content-card{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: rgb(88, 85, 85);
+}
+.card{
+    width: 29%;
+    display: inline-block;
+    margin: 1%;
+
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card p{
+    margin: 0;
+}
+.card h2{
+    margin: 0.1em;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+}
+.main-content-image{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-attachment: scroll;
+    background-size: cover;
+    height: 28em;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 2em;
+    margin: 1.5em;
+    color: white;
+}
+.main-content-image h2{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 3em;
+}
+.main-content-image p{
+    margin-right: 10em;
+}
+.main-content-adress{
+    font-size: 1.5em;
+    margin: 2em;
+    text-align: center;
+    color: rgb(5, 28, 44);
+    font-weight: bold;
+}
+iframe{
+    width: 100%;
+}
+footer{
+    background: rgb(4, 19, 29);
+    height: 5em;
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+}
+.footer p{
+    padding-top: 2em;
+}
