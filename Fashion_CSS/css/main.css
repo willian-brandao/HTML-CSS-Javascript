@@ -52,3 +52,19 @@ body{
     line-height: 2;
     color: #555;
 }
+.gallery{
+    color:#555;
+    padding: 0 6.2em 3.1em 6.2em ;
+    overflow: auto;
+}
+.gallery-card {
+   width: 32%;
+   float: left; 
+   text-align: center;
+}
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
