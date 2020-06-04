@@ -1,0 +1,116 @@
+.principal{
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    position: relative;
+    margin:0;
+    border-top:1px solid transparent;
+    color:rgb(34, 122, 92);
+}
+
+.main-header{
+    background: rgb(34, 122, 92);
+    height: 15em;
+    width: 100%;
+    position: absolute;
+}
+.header-h1{
+    color: white;
+    font-size: 6em;
+    padding: .2em;
+}
+.header-nav{
+    position: absolute;
+    top:0;
+    right: 2em;
+
+}
+.header-menu{
+    list-style: none;
+    float: left;
+}
+.header-menu li{
+    position: relative;
+}
+.menu1{
+    color: white;
+    padding: 0.3em 0.6em;
+    border: 1px solid transparent;
+    padding: .5em;
+    text-align: center;
+    margin: .5em;
+    border-radius: .8em;
+}
+.menu1:hover{
+    color: rgb(115, 190, 165);
+}
+
+.header-menu li a{
+    text-decoration: none;
+    display: block;
+}
+.header-menu li ul{
+    position: absolute;
+    top:1em;
+    right: 0;
+    background-color: transparent;
+    display: none;
+    padding: .5em;
+}
+.header-menu li ul a{
+    color: rgb(34, 122, 92);
+    text-align: center;
+    background-color: white;
+    margin: .5em;
+    padding: .5em;
+    border-radius:5px ;
+}
+.header-menu li:hover ul, .header-menu li.over ul{
+    display: block;
+}
+.header-menu li ul li{
+    display: block;
+    width: 9em;
+}
+.news{
+    width: 80%;
+    margin: 18em 5em 0 5em;
+    overflow: hidden;
+}
+.news-title{
+    font-size: 2.5em;
+}
+.products-mid{
+    width: 30%;
+    float: left;
+    margin: 2em;
+    padding: 0;
+    text-align: center;
+    color:rgb(34, 122, 92)
+
+}
+.products-mid img{
+    width: 100%;
+}
+.news-links{
+    color: rgb(34, 122, 92);
+    text-decoration: none;
+}
+.outlet{
+        width: 80%;
+        margin: 1em 5em 0 5em;
+        overflow: hidden;
+}
+.outlet-title{
+    font-size: 2.5em;
+}
+.footer{
+    background-color: rgb(34, 122, 92);
+    color: white;
+    overflow: hidden;
+    height:8em;
+}
+
+
+@media only screen and (min-width: 28.1em){
+
+}
