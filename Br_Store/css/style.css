@@ -1,0 +1,98 @@
+.principal{
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    position: relative;
+    margin:0;
+    border-top:1px solid transparent;
+    color:rgb(34, 122, 92);
+}
+
+.main-header{
+    background: rgb(34, 122, 92);
+    height: 15em;
+    width: 100%;
+    position: absolute;
+}
+.header-h1{
+    color: white;
+    font-size: 6em;
+    padding: .3em;
+}
+.news{
+    width: 80%;
+    margin: 18em 5em 0 5em;
+    overflow: hidden;
+}
+.news-title{
+    font-size: 2.5em;
+}
+.products-mid{
+    width: 30%;
+    float: left;
+    margin: 2em;
+    padding: 0;
+    text-align: center;
+    color:rgb(34, 122, 92)
+
+}
+.products-mid img{
+    width: 100%;
+}
+.news-links{
+    color: rgb(34, 122, 92);
+    text-decoration: none;
+}
+.outlet{
+        width: 80%;
+        margin: 1em 5em 0 5em;
+        overflow: hidden;
+}
+.outlet-title{
+    font-size: 2.5em;
+}
+.footer{
+    background-color: rgb(34, 122, 92);
+    color: white;
+    overflow: hidden;
+    height:300px;
+}
+
+.footer li{
+    margin: .3em;
+}
+.footer-ul{
+    list-style: none;
+    float: left;
+    position: relative;
+}
+.footer-ul li{
+    position: relative;
+    list-style: none;
+}
+.footer-ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+.footer-ul li a:hover{
+    background: white;
+    color: teal;
+    border-radius: 2px;
+}
+.footer-ul li ul{
+    position: absolute;
+    display: none;
+    top: 30px;
+    left: 0;
+}
+.footer-ul li:hover ul, .footer-ul li.over ul{
+    display: block;
+}
+.footer-ul li ul li{
+    display: block;
+    width: 200px;
+}
+@media only screen and (min-width: 28.1em){
+
+}
