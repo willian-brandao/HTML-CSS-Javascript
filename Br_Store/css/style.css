@@ -17,6 +17,55 @@
     color: white;
     font-size: 6em;
     padding: .3em;
+    float: left;
+}
+.header-nav span{
+    font-size: 1.5em;
+}
+.header-nav{
+   position: absolute;
+   right: 1em;
+   top:0;
+
+}
+.header-nav li{
+    margin:.2em;
+    position: relative;
+
+}
+.header-menu{
+    list-style: none;
+    float: right;
+    position: relative;
+    right:.5em; 
+}
+.header-menu li{
+    position: relative;
+    list-style: none;
+}
+.header-menu li a{
+    color:white;
+    text-decoration: none;
+    padding: .3em .6em;
+    display: block;
+}
+.header-menu li a:hover{
+    background: white;
+    color:rgb(34, 122, 92);
+    border-radius: 2px;
+}
+.header-menu li ul{
+    position: relative;
+    display: none;
+    top: 0;
+    right: 1em;
+}
+.header-menu li:hover ul, .header-menu li.over ul{
+    display: block;
+}
+.header-menu li ul li{
+    display: block;
+    width:6em
 }
 .news{
     width: 80%;
@@ -54,7 +103,7 @@
     background-color: rgb(34, 122, 92);
     color: white;
     overflow: hidden;
-    height:300px;
+    height:10em;
 }
 
 .footer li{
