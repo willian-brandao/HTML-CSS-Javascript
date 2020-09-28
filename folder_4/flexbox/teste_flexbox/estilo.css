@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+}
+#area{
+    width: 700px;
+    height: 500px;
+    background: beige;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap-reverse;
+    align-content: space-around;
+    align-items: center;
+}
+.header{
+    background: red;
+    width: 20%;
+    height: 100%;
+    margin: 5px;
+}
+.aside{
+    background:blue;
+    width: 20%;
+    height: 100%;
+    margin: 5px;
+    
+}
+.main{
+    background:yellow;
+    width: 20%;
+    height: 100%;
+    margin: 5px;
+   
+}
+.footer{
+    background:green;
+    width: 20%;
+    height: 100%;
+    margin: 5px;
+}

@@ -1,0 +1,80 @@
+#principal{
+    display: grid;
+
+   /* grid-template-areas:  //establish the space on web page
+                        "cabecalho cabecalho"
+                        "menu menu"
+                        "conteudo aside"
+                        "rodape rodape"
+    ;
+    */
+
+    grid-template-rows: repeat(5, 50px); /* establish size of rows*/
+    grid-template-columns: repeat(5, 1fr); /*stablish size of collumn; //note: can be use many measures to represent: fr, %... */ 
+
+    /*grid-column-gap: 15px; /* stablish a gap beetwin columns*/
+   /* grid-row-gap: 15px; /* stablish a gap beetwin rows*/
+
+                    
+}
+
+.cabecalho{
+    background: red;
+    /*grid-area: cabecalho; a tag of area established on grid-template-areas */
+    
+   /* grid-row-start: 1; /*demarcate where starts the container on row*/
+    /*grid-row-end: 2; /* demarcate where finish the container on row*/
+
+   /* grid-column-start: 1; /*demarcate where starts the container on collumn*/
+   /* grid-column-end: 6; /* demarcate where finish the container on collumn*/ 
+    
+}
+.menu{
+    background-color: blue;
+    /*grid-area: menu; a tag of area established on grid-template-areas*/
+   
+   /* grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 1;
+    grid-column-end: 6; */
+
+    
+}
+.conteudo{
+    background-color: green;
+    /*grid-area: conteudo; a tag of area established on grid-template-areas*/
+   /* grid-row-start: 3;
+    grid-row-end: 5;
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+*/
+
+    /*justify-self: stretch; //align element on horizontal position
+    /*align-self: stretch; //align item on vertical position */
+
+    /*place-self: stretch; //align element in both position*/
+}
+.conteudo-secundario{
+    background: yellow;
+    /*grid-area: aside; a tag of area established on grid-template-areas*/
+
+    /*grid-row-start: 3;
+    grid-row-end: 5;
+
+    grid-column-start: 5;
+    grid-column-end: 6;
+    */
+}
+.rodape{
+    background: purple;
+    /*grid-area: rodape; a tag of area established on grid-template-areas*/
+
+    /*grid-row-start:5;
+    grid-row-end: 7;
+
+    grid-column-start: 1;
+    grid-column-end:6;
+    */
+}

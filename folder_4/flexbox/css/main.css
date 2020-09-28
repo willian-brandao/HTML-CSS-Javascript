@@ -1,0 +1,31 @@
+#container{
+    background: #999;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row; /*set direction of elements on containeer, that can be collumns or rows*/
+    flex-wrap: wrap; /*quando selecionado, quebra a linha entre os elementos */
+
+    justify-content: flex-start; /* alocate objects in a horizontal position*/
+    align-items: flex-start;  /* alocate objects in a vertical position*/
+}
+
+
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin: 5px;
+
+}
+.item:nth-child(1){
+    /*order: 1 // order objects, 
+    negative numbers: move to left and positive numbers move to right*/
+ }
+.item:nth-child(2){
+   /* flex-grow: 1; //increase the size of objects to sides*/
+}
+
+.item:nth-child(3){
+    /*flex-shrink: 1; //decrease the size of objects*/
+}
